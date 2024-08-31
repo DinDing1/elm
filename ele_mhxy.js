@@ -3,6 +3,15 @@
  * cron 1 0,6,12,18,21 * * *
  * 需要手动玩到四级才能跑
  */
+// 简单定义一个 Env 对象
+class Env {
+    constructor(name) {
+        this.name = name;
+    }
+    log(...args) {
+        console.log(...args);
+    }
+}
 const $ = new Env('饿了么梦幻小院');
 const {
     "getToken": getToken,
