@@ -3,6 +3,16 @@
  * cron: 7 0,6,12,18,22 * * *
  * 修复连连看
  */
+// 简单定义一个 Env 对象
+class Env {
+    constructor(name) {
+        this.name = name;
+    }
+    log(...args) {
+        console.log(...args);
+    }
+}
+
 const $ = new Env('饿了么乐园币');
 const {
     "getToken": getToken,
