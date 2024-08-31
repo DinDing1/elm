@@ -1,3 +1,7 @@
+# -*- coding:utf-8 -*-
+"""
+new Env('饿了么强卷');
+"""
 import os
 import re
 import time
