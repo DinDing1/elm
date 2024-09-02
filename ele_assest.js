@@ -1,6 +1,6 @@
 /**
  * @kolikow
- * cron: 0 8,16,23 * * *
+ * cron: 0 8,20 * * *
  * elmck: 'unb=xxx;cookie2=xxxUSERID=xx;SID=xxx;wxUid=xx;'
  * 设置 ele_sendNotify.js WX_PUSH_TOKEN
  */
