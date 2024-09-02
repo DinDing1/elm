@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-cron: 15 10 * * *
+cron: 50 */4 * * *
 new Env('饿了么贪吃蛇');
 """
 import os
